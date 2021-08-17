@@ -1,16 +1,23 @@
+* {
+    color: red;
+}
+
 h2 {
     color: steelblue;
 }
 
-nav {
+.borde {
+    border: 1px solid black;
+}
+
+#section {
     border: 1px solid black;
 }
 
 .titulo {
-    text-align: right;
-    color: tomato;
+    text-align: center;
 }
 
-.titulo-borde {
-    border: 1px solid black;
+.😁 {
+    color: green;
 }
