@@ -29,3 +29,12 @@ h2 {
 [href^="hsttps"] {
     color: darkgreen;
 }
+
+[href$="org"] {
+    background: steelblue;
+    color: white;
+}
+
+[href*="alex"] {
+    background: darksalmon;
+}
