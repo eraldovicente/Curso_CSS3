@@ -1,40 +1,20 @@
-h2 {
-    color: steelblue;
+h2,h3 {
+    font-size: 25px;
+    font-family: 'Arial';
 }
 
-.borde {
-    border: 1px solid black;
+.contenedor>p {
+    color: darkslateblue;
 }
 
-#section {
-    border: 1px solid black;
-}
-
-.titulo {
-    text-align: center;
-}
-
-.😁 {
-    color: green;
-}
-
-[href] {
-    text-decoration: none;
-}
-
-[href="https://alexcgdesign.com/inicio"] {
-    color: darkred;
-}
-
-[href^="hsttps"] {
-    color: darkgreen;
-}
-
-[href$="org"] {
+nav.contenedor .titulo {
     background: steelblue;
-    color: white;
 }
 
-[href*="alex"] {
-    background: darksalmon;
+h2+p {
+    color: gold;
+}
+
+h2~p {
+    color: gold;
 }
