@@ -1,7 +1,3 @@
-* {
-    color: red;
-}
-
 h2 {
     color: steelblue;
 }
@@ -20,4 +16,16 @@ h2 {
 
 .😁 {
     color: green;
+}
+
+[href] {
+    text-decoration: none;
+}
+
+[href="https://alexcgdesign.com/inicio"] {
+    color: darkred;
+}
+
+[href^="hsttps"] {
+    color: darkgreen;
 }
