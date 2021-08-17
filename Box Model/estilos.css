@@ -32,6 +32,16 @@ body {
     background: gold;
     height: 40px;
     margin-top: 40px;
+
+    /*
+        Para box model utilizar o box size do Paul Irish
+        html {
+            box-sizing: border-box;
+            }
+            *, *:before, *:after {
+            box-sizing: inherit;
+        }
+    */
 }
 
 .box2 {
