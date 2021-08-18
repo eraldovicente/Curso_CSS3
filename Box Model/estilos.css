@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
 }
@@ -8,9 +14,8 @@ body {
 }
 
 .box1 {
-    width: 100%;
     background: steelblue;
-    padding: 1px;
+    border: 1px solid black;
     /* margin-top: 50px;
     margin-bottom: -100px;
     margin-left: 30px;
@@ -28,24 +33,15 @@ body {
     margin-top: 0;
 }
 
-.header {
-    background: gold;
-    height: 40px;
-    margin-top: 40px;
-
-    /*
-        Para box model utilizar o box size do Paul Irish
-        html {
-            box-sizing: border-box;
-            }
-            *, *:before, *:after {
-            box-sizing: inherit;
-        }
-    */
-}
-
 .box2 {
-    opacity: 0.5;
-    background: tomato;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    color: white;
+    background: crimson;
     margin-top: 40px;
+    border: 1px solid black;
+    overflow: hidden;
 }
