@@ -44,4 +44,5 @@ body {
     margin-top: 40px;
     border: 1px solid black;
     overflow: hidden;
+    border: 20px dotted yellowgreen;
 }
