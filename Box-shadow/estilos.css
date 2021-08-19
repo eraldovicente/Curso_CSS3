@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img{
+    display: block;
+    width: 400px;
+    margin: 30px auto;
+    /* box-shadow: 8px 8px 12px rgba(6, 24, 129, 0.513); */
+    box-shadow:3px 3px 10px rgba(0,0,0, .75);
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: steelblue;
+    margin: 30px;
+    /* box-shadow: h-offset v-offset blur spread color; */
+    box-shadow: 10px 10px 0 0 crimson;
+}
