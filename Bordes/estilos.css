@@ -18,3 +18,11 @@
     border-style: dashed dashed;
     border-color: brown steelblue;
 }
+
+img {
+    width: 300px;
+    display: block;
+    height: 300px;
+    object-fit: cover;
+    margin: 80px auto;
+}
