@@ -1,18 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 
-.container{
+.container {
     width: 70%;
     height: 300px;
     margin: 30px auto;
     /* background: rgb(100, 100, 250); */
     background-color: rgb(100, 100, 250);
-    background-image: url(img/spidy.png);
     background-image: url(img/sun.png);
+    background-image: url(img/spidy.png);
     background-repeat: no-repeat;
+    background-position: 30px 100px;
+    background-position: center;
+    background-size: contain;
 }
 
