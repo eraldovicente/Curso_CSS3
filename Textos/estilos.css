@@ -6,6 +6,7 @@
 
 body{
     background: #9ab1f6;
+    font-family: cursive;
 }
 
 .container {
@@ -28,16 +29,27 @@ body{
 .copy {
     text-align: justify;
     padding: 10px 0;
+    /* font-style: italic; */
     /* letter-spacing: -2px; */
     /* word-spacing: 30px; */
     /* text-shadow: 3px 3px 6px rgba(0, 0, 0, .5); */
     /* text-transform: uppercase; */
-    line-height: 30px;
+    /* line-height: 30px; */
+    /* font-variant: small-caps; */
+}
+
+.bold {
+    color: crimson;
+    /* font-weight: bold; */
+    font-size: 20px;
 }
 
 a {
-    display: block;
+    display: inline-block;
     text-align: left;
-    text-decoration-line: underline;
-    text-decoration-style: wavy;
+    padding: 10px 25px;
+    border: 1px solid crimson;
+    /* text-decoration-line: underline; */
+    /* text-decoration-style: wavy; */
+    text-decoration: none;
 }
