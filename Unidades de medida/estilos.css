@@ -21,7 +21,6 @@ body{
     box-shadow: 8px 8px 16px rgba(0, 0, 0, .5);
 }
 
-
 .title{
     font-size: 1em;
 }
@@ -29,4 +28,23 @@ body{
 
 .text{
     font-size: 20px ;
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    /* max-width: 500px;
+    max-height: 500px;
+    min-width: 200px;
+    min-height: 200px; */
+    /* width: 600px;
+    height: 1200px; */
+    background: steelblue;
+    margin: 30px auto;
+}
+
+.children {
+    width: 90%;
+    height: 50px;
+    background: crimson;
 }
