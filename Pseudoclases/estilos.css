@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.enlace {
+    display: block;
+    background: tomato;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    border-bottom: 3px solid #ebd1db;
+}
+
+.enlace:link {
+    background: burlywood;
+    color: #000;
+}
+
+.enlace:visited {
+    background: crimson;
+}
+
+.enlace:hover {
+    text-decoration: underline;
+    padding: 40px 20px;
+    transition: .3s;
+}
+
+.enlace:active {
+    background: steelblue;
+    color: #fff;
+}
+
