@@ -34,3 +34,59 @@
     color: #fff;
 }
 
+.event {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    background: crimson;
+    color:#fff;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.event:active {
+    padding: 29px;
+}
+
+#objetivo {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    background: steelblue;
+    transition: .3s;
+}
+
+#objetivo:target {
+    margin-left: 150px;
+}
+
+.form {
+    width: 80%;
+    margin: 30px auto;
+    background: #f2f2f2;
+    box-shadow: 0 0 5px rgba(0,0,0 .5);
+    padding: 30px;
+}
+
+.form__title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    display: block;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 12px 5px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+}
+
+input[type="checkbox"]{
+    display: inline-block;
+}
